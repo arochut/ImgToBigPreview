@@ -1,0 +1,14 @@
+<head>
+    <title> ImgToBigPreview Demo </title> 
+    <link rel="stylesheet" type="text/css" href="ITBPstyle.css">
+</head>
+<body>
+    <img height="200px" width="400px" src="http://lorempixel.com/1386/780" alt="Une belle Image" onclick="toBigPreview(this.src, this.alt)">
+    <div class="ITBPframe" id ="ITBPframe">
+            <span class="ITBPclose" id="ITBPcloseButton">&times;</span>
+            <img class="ITBPbigImg" id="ITBPbigImg">
+	    <span class="ITBPalt" id="ITBPbigSubText"> </span>
+     </div>
+     <script src="ImgToBigPreview.js"></script> 
+
+</body>

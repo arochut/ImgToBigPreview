@@ -1,0 +1,22 @@
+If you want to add this plugin to your website:
+  
+  1. Copy & paste the following line to the <head> part of your code
+ 
+    <link rel="stylesheet" type="text/css" href="ITBPstyle.css">
+  
+  2. Add an onclick function to every image you want to allow fullscreen display :
+  
+      <img src="your image.extension" alt="Your alt text" onclick="toBigPreview(this.src, this.alt)">
+      
+  3. Add the following code somewhere in your <body> content
+  
+      <div class="ITBPframe" id ="ITBPframe">
+            <span class="ITBPclose" id="ITBPcloseButton">&times;</span>
+            <img class="ITBPbigImg" id="ITBPbigImg">
+	    <span class="ITBPsubText" id="ITBPbigSubText"> </span>
+     </div>
+     <script src="ImgToBigPreview.js"></script> 
+
+  4. Put the files ImgToBigPreview.js and ITBPstyle.css in your site folder
+  
+  5. Enjoy... ^^
